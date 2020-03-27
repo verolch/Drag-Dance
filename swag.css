@@ -159,6 +159,11 @@ html {
 	text-decoration: none; 
 }
 
+.footer-cta:hover {
+	background: rgba(255, 255, 255, .4);
+	color: #e58b89; 
+}
+
 /* Utilities */
 .bold {
 	font-weight: 700;
