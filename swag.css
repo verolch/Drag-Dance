@@ -75,19 +75,28 @@ html {
 	font-family: 'Playfair Display', serif;
 	font-size: 26px;
 	line-height: 1.6;
-	margin: 0;	
+	margin: 0 0 10px;	
 }
 
+.flyer-list {
+	list-style: none;
+	padding: 0;
+}
 
 .flyer-yes {
 	color: #e58b89;
 	font-family: 'Lato', sans-serif;
-	margin: 0;
+	font-size: 20px;
+	font-style: italic;
 }
 
 .flyer-sub {
+	background: #f3c7c6;
+	display: inline;
 	font-size: 26px;
 	font-weight: 400;
+    padding: 0 8px;
+    
 }
 
 .instructions {
@@ -115,12 +124,39 @@ html {
 	color: #535353;
 }
 
-.goodies {
-	display: flex;
+.footer {
+	background-color: #eec0c6;
+	background-image: linear-gradient(315deg, #eec0c6 0%, #e58c8a 74%);
+	font-family: 'Lato', sans-serif;
+	padding: 70px 0 150px; 
+	width: 100%;
 }
 
-.goodies-box {
-	
+.footer-content {
+	margin: 0 auto;
+	text-align: center; 
+	width: 90%;
+}
+
+.footer-text {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.4;
+	margin-bottom: 0;
+}
+
+.footer-cta {
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	margin: 24px auto;
+	padding: 10px 30px;
+	text-decoration: none; 
 }
 
 /* Utilities */
@@ -134,34 +170,55 @@ html {
 
 
 @media only screen and (max-width: 600px) {
+
 	.hero-areca {
 		background-position: 0;
 		padding: 30px 0;
 	}
+
+	.hero-cta {
+		font-size: 18px;
+		margin-top: 30px;
+	}
+
 	.flyer {
 		margin: 0 auto;
-		width: 94%;
+		width: 90%;
 	}
 
 	.flyer-title {
 		font-size: 42px;
+		margin-bottom: 35px;
 	}
 
 	.flyer-text-wrap {
-		margin: 10px;
+		margin: 0px;
 	}
 
 	.flyer-sub { 
+		background: #f3c7c6;
 		font-size: 18px;
+		display: inline;
+    	padding: 0 8px;
 	}
 
 	.flyer-text {
 		font-size: 20px;
 	}
 
+	.flyer-yes {
+		font-size: 16px;
+	}
+
 	.instructions {
+		margin-bottom: 40px;
 		width: 80%;
 	}
+
+	.footer {
+		padding: 30px 30px 70px;
+	}
+
 }
 
 
