@@ -125,8 +125,24 @@ html {
 }
 
 @media only screen and (max-width: 600px) {
+	.hero-areca {
+		padding: 30px 0;
+	}
+	.flyer {
+		margin: 0 auto;
+		width: 94%;
+	}
+
 	.flyer-title {
-		font-size: 30px;
+		font-size: 42px;
+	}
+
+	.flyer-text-wrap {
+		margin: 10px;
+	}
+
+	.flyer-text {
+		font-size: 18px;
 	}
 }
 
